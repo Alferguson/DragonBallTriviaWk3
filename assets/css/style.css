@@ -1,0 +1,49 @@
+* {
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+body {
+	/*background-image: url("http://images1.wikia.nocookie.net/__cb20130412203229/dragonball/images/5/50/Wiki-background");*/
+    background-image: url("../images/DragonBallBackground.jpg");
+    /*to make background image scaledable, doesn't work with half of pages*/
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+#wrong, #right, #right-or-wrong-pic {
+	font-size: 500%; 
+	text-align: center;
+	margin-top: 5px;
+	
+
+}
+#wrong {
+	color: red;
+	
+	
+}
+#right {
+	color: blue;
+	
+	
+}
+#game-start {
+	width: 100%;
+
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+button:not(#game-start) {
+	margin-top: 50px;
+	
+	
+}
