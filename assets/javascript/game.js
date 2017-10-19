@@ -26,6 +26,11 @@ var $this;
 // arr of questions and answers, used double quotes so single quotes could be used in string
 var triviaArr = [
 	{
+		question: "In Goku's 2nd outing at the World's Martial Art Tournament, who did he fight and did he win?",
+		answer: ["Tien Shinhan, lost to him", "By a matter of milliseconds, Tien Shinhan won by hitting the outside of the stage last. Goku should have won but was struck by a car as he battled Tien in midair. Its kinda hard to describe"],
+		options: ["Jackie Chun, lost to him", "King Piccolo, defeated him", "Yajirobe, defeated him", "Tien Shinhan, lost to him", "Korin, it was a tie"]
+	},
+	{
 		question: "Where do the pig people such as Oolong come from?",
 		answer: ["Octagon Village", "Yes, because pigs like octagons apparently"],
 		options: ["Hexagon Village", "Octagon Village", "Pig Town", "Blueberry Country", "Mars"],
