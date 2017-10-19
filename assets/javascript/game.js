@@ -155,7 +155,7 @@ var continueFunc = function() {
 	// hide right or wrong, right or wrong pic, actual answer, and continue
 	$('#right-or-wrong, #right-or-wrong-pic, #actual-answer, #continue').hide();
 	// if gamecounter is 5 or more which should happen after the 5th question is answered, run gameover
-	if (gameCounter >= 5) {
+	if (gameCounter >= triviaArr.length) {
 		
 		// shows previously hidden IDs from gameStartFunc
 		$('#gameover-message, #right-counter, #wrong-counter, #unanswered-counter, #reset').show();
